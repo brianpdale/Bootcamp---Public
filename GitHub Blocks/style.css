@@ -1,0 +1,51 @@
+.container{
+    width: fit-content;
+    height: fit-content;
+    background-color: grey;
+    margin: 0px auto;
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: black solid;
+    border-width: 5px;
+}    
+.pink{
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    background-color: pink;
+    margin: 20px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.blue{
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    background-color:blue;
+    margin: 0px 20px 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.yellow{
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    background-color:yellow;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+p{
+    font-size: 15px;
+}
