@@ -1,0 +1,41 @@
+    .search {
+        background-color: white;
+        color: rgb(5, 131, 131);
+        height: 40px;
+        width: 180px;
+        border-radius: 20px;
+        font-size: 18px;
+        border-color: teal;
+        border-style: solid;
+        margin-left: 60px;
+        display: block;
+        margin-top: 60px;
+        
+        }
+    .plus {
+        background-color: rgb(5, 131, 131);
+        color: white;
+        margin: 10px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        font-size: 20px;
+        border-color: teal;
+        border-style: solid;
+        margin-left: 60px;
+        display: block;
+        
+    }    
+    .create{
+        background-color: blue;
+        font-size: 18px;
+        color: white;
+        height: 40px;
+        width: 220px;
+        border-color: black;
+        border: 3px solid black;
+        box-shadow: 3px 3px black;
+        display: block;
+        margin-left: 60px;
+        
+    }
