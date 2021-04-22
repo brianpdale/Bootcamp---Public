@@ -1,0 +1,33 @@
+.row{
+    height: 100%;
+    width: ;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+
+}
+.col{
+    height: 100px;
+    background-color: lightskyblue;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+
+}.col2{
+    height: 100px;
+    background-color: lightskyblue;
+    display: flex;
+    margin: 10px;
+    flex: 2;
+
+}
+.col3{
+    height: 100px;
+    background-color: lightskyblue;
+    display: flex;
+    margin: 10px;
+    flex: 3;
+
+}
