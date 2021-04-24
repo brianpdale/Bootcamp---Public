@@ -1,0 +1,70 @@
+*{ 
+    outline: 1px solid red;
+}
+.nav{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 35px 0px 10px;
+}
+.left-header{
+    display: flex;
+}
+#profile-title{
+    font-size: 2.5rem;
+    margin-left: 9rem;
+    margin-right: 20px;
+}
+.myprofile{
+    font-weight: bolder;
+}
+.sign-out{
+    background-color: rgb(45, 159, 163);
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 85px;
+    border-color: black;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    margin-right: 9rem;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 85, 85);
+    padding: 20px;
+    
+}
+.profile-col{
+    background-color: rgb(255, 255, 255);
+    flex: 2;
+    width: 100%;
+    height: 300px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px 20px 0px 160px;
+
+}
+.connect-col{
+    background-color: rgb(228, 128, 148);
+    flex: 1;
+    width: 100%;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px 120px 0px 0px
+}
+
+
