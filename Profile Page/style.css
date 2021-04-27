@@ -22,6 +22,7 @@
     font-size: 2.5rem;
     margin-left: 9rem;
     margin-right: 20px;
+    cursor: pointer;
 }
 .myprofile{
     font-weight: bolder;
@@ -34,8 +35,14 @@
     width: 85px;
     border-color: black;
     border: 3px solid black;
+}
+.shadow{
     box-shadow: 3px 3px black;
-    margin-right: 9rem;
+}
+#counting{
+    color: white;
+    margin-right: 15rem;
+    align-self: left;
 }
 .main-content{
     display: flex;

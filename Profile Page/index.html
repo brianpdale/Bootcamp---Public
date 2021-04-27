@@ -10,14 +10,18 @@
     <div class="containter">
         <div class="nav">
             <div class="left-header">
-                <h id="profile-title">Profile</h>
+                <h id="profile-title" onclick= "profileColor(this, 'randomColor')">Profile</h>
+                <script type="text/javascript">
+                    
+                </script>
                 <a href="#" class="home">Home</a>
                 <a href="#" class="myprofile">My Profile</a>
                 <a href="#" class="connections">Find Connections</a>
             </div>
             <div class="button">
-                <button class="sign-out">Sign Out</button>
+                <button class="sign-out" onclick= "counter()" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">Sign Out</button>
             </div>
+            <p id="counting">0</p>
         </div>
         <div class="main-content">
             
@@ -82,10 +86,11 @@
                 </div>
                 <div class="line"></div>
                 <p class="viewmore"><a href="">View More</a></p>
-                
+                <script src="script.js"></script>
             </div>
         </div>
         </div>
+        
     </div>
 </body>
 </html>

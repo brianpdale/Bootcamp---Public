@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 800px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    height: fit-content;
+}
+
+.clickme{
+    height: 50px;
+    width: 150px;
+    text-align: middle;
+} 
+
+.printpage{
+    height: 50px;
+    width: 150px;
+    display: block;
+    margin-top: 20px;
+}
+.heart{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: orangered;
+    border-width: 5px;
+    border-style: solid;
+
+}
+.shadow{
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}

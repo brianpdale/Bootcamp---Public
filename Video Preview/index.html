@@ -8,19 +8,21 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <video id="yakvideo">
-        <source src="Pexels Videos 2313069.mp4" type="video/mp4">
+    <video id="video" width="300" onmouseover="playvid()" controls muted> 
+        <source src="video.mp4" type="video/mp4">
     </video>
-    <button class="play" onclick="playVid()" type="button">Play</button>
-    <button class="Pause" onclick="pauseVid()">Pause</button>
+    <button  type="button">Play</button>
+    <button onclick="pausevid()" type="button">Pause</button>
+    <p id="video" >Play Play Play</p>
     <script>
-        var x=document.getElementById("yakvideo")
-        {
-        function playVid();
-        myvideo.play();
+        var x = document.getElementById("video");
+        
+        function playvid(){
+        x.play();
         }
-        {
-        function pauseVid()''  
+        
+        function pausevid(){
+        x.pause(); 
         }
     </script>
 </body>

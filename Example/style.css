@@ -1,0 +1,16 @@
+
+body {
+    background-color: orchid;
+    display: flex;
+}
+.boxing {
+    display: flex;
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    border-color: orangered;
+    border-width: 5px;
+}
+.shadow {
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
