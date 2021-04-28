@@ -3,11 +3,11 @@
         document.getElementById("cookies").style.display = 'none';
 }
 
-function changepic(){
+function changepic(myStr){
     var myelement = document.querySelector("#succulent1")
-    myelement.src = "succulents-1.jpg"
+    myelement.src = myStr
 }
-function changepicback(){
+function changepicback(myStr){
     var myelement = document.querySelector("#succulent1")
-    myelement.src = ""
+    myelement.src = myStr
 }

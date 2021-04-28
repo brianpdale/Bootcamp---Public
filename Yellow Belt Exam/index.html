@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EasyBay</title>
+    <title>Succulent Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="nav">
-            <img class="leaflogo" src="imgs\leaf.png" alt="leaflogo">
+            <img class="leaflogo" src="imgs/leaf.png" alt="leaflogo">
             <h1 class="easybay">EasyBay</h1>
             <div class="searchcontainer">
             <input class="searchbox" placeholder="Search for anything." type="text">
-            <img class="searchglass" src="imgs\search-dark.png" alt="searchglass">
+            <img class="searchglass" src="imgs/search-dark.png" alt="searchglass">
             </div>
             <p class="signin">Sign In</p>
-            <img class="shoppingcart" onclick="alert('Your Cart is Empty!')" src="imgs\cart-dark.png" alt="shopping cart">
+            <img class="shoppingcart" onclick="alert('Your Cart is Empty!')" src="imgs/cart-dark.png" alt="shopping cart">
         </div>
         <div class="catagories-col">
             <h2 class="selection">Aeonium</h2>
@@ -28,51 +28,51 @@
             <h2 class="selection">Aristaole</h2>
             <h2 class="selection">More...</h2>
         </div>
-        <hr class="line"></hr>
+        <hr class="line">
         <h1 class="tagline">Your Source for Serious Succulent Specialities</h1>
         <div class="col-1">
             <div class="row-1">
                 <div class="dis-container">
                     <p class="disc">Discover succ-ulent varieties one pot or rack at a time! </p>
-                        <p class="dis">Discover<img class="arrow" src="imgs\arrow-light.png" alt=""></p>
+                        <p class="dis">Discover<img class="arrow" src="imgs/arrow-light.png" alt=""></p>
                 </div>
             </div> 
             <div class="row-2">
-                <img class="succulent1" id="succulent1" onmouseover="changepic()" onmouseout="changepicback(this)" src="imgs\succulents-1.jpg" alt="">
+                <img class="succulent1" id="succulent1" onmouseover="changepic('imgs/aloe-m.jpg')" onmouseout="changepicback('imgs/succulents-1.jpg')" src="imgs/succulents-1.jpg" alt="">
             </div>
             <div class="row-3">
-                <img class="aloe-m" src="imgs\aloe-m.jpg" alt="">
+                <img class="aloe-m" src="imgs/aloe-m.jpg" alt="">
                 <div class="aloediv">
-                    <p class="soothingaloe">Soothing Aloe<img class="arrow" src="imgs\arrow-light.png" alt=""></p>
+                    <p class="soothingaloe">Soothing Aloe<img class="arrow" src="imgs/arrow-light.png" alt=""></p>
                 </div>
             </div>
         </div>    
         <div class="pics-col">
             <div class="plant">
-                <img class="plantpics" src="imgs\aeonium-s.jpg" alt="aeonium-s">
+                <img class="plantpics" src="imgs/aeonium-s.jpg" alt="aeonium-s">
                 <p class="plantname">Aeonium</p>
             </div>
             <div class="plant">
-                <img class="plantpics" src="imgs\aloe-s.jpg" alt="agave">
+                <img class="plantpics" src="imgs/aloe-s.jpg" alt="agave">
                 <p class="plantname">Agave</p>
             </div>
             <div class="plant">
-                <img class="plantpics" src="imgs\cactus-s.jpg" alt="cactus">
+                <img class="plantpics" src="imgs/cactus-s.jpg" alt="cactus">
                 <p class="plantname">Cactus</p>
             </div>
             <div class="plant">
-                <img class="plantpics" src="imgs\echeveria-s.jpg" alt="echeveria">
+                <img class="plantpics" src="imgs/echeveria-s.jpg" alt="echeveria">
                 <p class="plantname">Echeveria</p>
             </div>
             <div class="plant">
-                <img class="plantpics" src="imgs\sedum-s.jpg" alt="sedum">
+                <img class="plantpics" src="imgs/sedum-s.jpg" alt="sedum">
                 <p class="plantname">Sedum</p>
             </div>
             <div class="plant">
-                <img class="plantpics" src="imgs\sempervivum-s.jpg" alt="Sempervivum">
-                <p class="plantname"></p>Sempervivum</p>
+                <img class="plantpics" src="imgs/sempervivum-s.jpg" alt="Sempervivum">
+                <p class="plantname">Sempervivum</p>
                 <div class="cookies" id="cookies">
-                    <div class="caution"><img src="imgs\alert-dark.png" class="caution" alt=""></div>
+                    <div class="caution"><img src="imgs/alert-dark.png" class="caution" alt=""></div>
                     <p class="cookiestatement">This site makes use of third party cookies, by clicking "I Accept" you agree to the terms outlined in our <a href="">Cookie Policy</a></p>
                     <button class="accept" onclick="acceptcookies()">Accept</button>
                 </div>
@@ -80,8 +80,5 @@
         </div>
     </div>
     <script src="script.js"></script>
-</div>
-    
-    
 </body>
 </html>
