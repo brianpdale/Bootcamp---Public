@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">DojoWeather
+            <div id="cities"></div>
+            <h1 class="burbank"onclick="alert('Loading weather report...')">Burbank</h1>
+            <h1 class="chicago"onclick="alert('Loading weather report...')">Chicago</h1>
+            <h1 class="dallas" onclick="alert('Loading weather report...')">Dallas</h1>
+        </div>
+    
+    <div class="cityandtemp">
+        <div class="currentcity">San Jose</div>
+        <div class="showtemp">
+            <p>show temperature in</p>
+            <select name="tempselect" id="temp">
+                <option name="tempselect" value="degreesf">°F</option>
+                <option name="tempselect" value="degreesc">°C</option>
+            </select>
+        </div>
+    </div>
+    <hr class="line"></hr>
+    <div class="col1"> 
+
+    <div class="today">Today
+        
+    </div>
+    <div class="tomorrow">Tomorrow
+        
+    </div>
+    <div class="friday">Friday</div>
+    <div class="saturday">Saturday</div>
+</div>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
