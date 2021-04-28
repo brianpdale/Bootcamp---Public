@@ -1,0 +1,200 @@
+
+*{
+border: 1px solid red;
+}  
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    background-color:  white;
+    height: 50px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+.leaflogo{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0,209,178);
+}
+.easybay{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.searchcontainer{
+    display: flex;
+    height: 35px;
+    width: 800px;
+    justify-content: space-evenly;
+    vertical-align: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+.searchbox{
+    display: flex;
+    font-size: 20px;
+    width: 720px;
+    border: transparent;
+}
+.searchglass{
+    height: 30px;
+}
+.signin{
+    font-size: 20px;
+}
+.shoppingcart{
+    height: 40px;
+}
+.catagories-col{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin-top: 20px;
+    height: 30px;
+}
+.selection{
+    font-size: medium;
+}
+.line{
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    border: 2px solid black;
+    width: 1200px;
+}
+.tagline{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.col-1{
+    display: flex;
+    height: 330px;
+}
+.row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    flex: 1;
+    background-color: rgb(0,209,178);
+}
+.disc{
+    font-size: 40px;
+    width: 270px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin: px 0px;
+    color: white;
+}
+.discover{
+    margin: 0px;
+    padding: 0px;
+}
+.dis{
+    font-size: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.arrow{
+    height: 40px;
+}
+.row-2{
+    display: flex;
+    flex: 1;
+    
+}
+.succulent1{
+    height: 100%;
+    width: 100%;
+}
+.row-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 30px;
+
+}
+.aloe-m{
+    align-self: flex-start;
+    width: 400px;
+    height: 215px;
+}
+.aloediv{
+
+}
+.soothingaloe{
+    height: 90px;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-color: rgb(0,209,178);
+}
+.pics-col{
+    display: flex;
+    position: relative;
+    height: 300px;
+    background-color: rgb(170,232,216);
+    margin-top: 30px;
+}
+.plant{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.plantpics{
+    height: 180px;
+    border-radius: 50%;
+}
+.cookies{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    margin-right: 1000px;
+    margin-top: 200px;
+
+}
+.accept{
+    background-color: rgb(45, 159, 163);
+    font-size: 15px;
+    color: white;
+    height: 50px;
+    width: 125px;
+    border-color: black;
+    border: 3px solid black;
+}
+.cookiestatement{
+    font-size: 30px;
+}
+.caution{
+    height: 80px;
+}
