@@ -20,9 +20,9 @@
         <div class="currentcity">San Jose</div>
         <div class="showtemp">
             <p>show temperature in</p>
-            <select name="tempselect" id="temp">
-                <option name="tempselect" value="degreesf">°F</option>
-                <option name="tempselect" value="degreesc">°C</option>
+            <select name="tempselect" id="temp" onchange="calculatetemps(this, event)">
+                <option name="selectF" value="1">°F</option>
+                <option name="selectC" value="2">°C</option>
             </select>
         </div>
     </div>
@@ -35,22 +35,55 @@
         <img src="imgs\some_rain.png" alt="">
         <p class="weathertype">some rain</p>
         <div class="hiandlow">
-            <p class="hitemp">23.9</p>
+            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
+            <p class="lowtemp">18.3<span>°</span></p>
         </div>
         </div>
     </div>
     <div id="tomorrowbox1">
         <h1 class="tomorrowtext">Tomorrow</h1>
+        <img src="imgs\some_sun.png" alt="">
+        <p class="weathertype">some rain</p>
+        <div class="hiandlow">
+            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
+            <p class="lowtemp">18.3<span>°</span></p>
+        </div>
     </div>
     <div id="fridaybox1">
         <h1 class="fridaytext">Friday</h1>
+        <img src="imgs\some_clouds.png" alt="">
+        <p class="weathertype">some rain</p>
+        <div class="hiandlow">
+            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
+            <p class="lowtemp">18.3<span>°</span></p>
+        </div>
     </div>
     <div id="saturdaybox1">
         <h1 class="saturdaytext">Saturday</h1>
+        <img src="imgs\some_sun.png" alt="">
+        <p class="weathertype">some rain</p>
+        <div class="hiandlow">
+            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
+            <p class="lowtemp">18.3<span>°</span></p>
+
+        </div>
     </div>
 </div>
+</div>
 
-
+    <div class="cookiejar">
+    <div class="cookies">
+        <img class="cookiepic" src="imgs\cookie.png" alt="cookie">
+        <div class="cookiestatebox">
+        <h1 class="cookieheader">Stop! Cookie Time</h1>
+        <p class="cookiestatement">We use cookies (sadly not the edible ones) to personalize content and adds, 
+            to provide social media features and to analyse the traffic. <a href="">Read More</a>
+        </p>
+        </div>
+        <div class="acceptbutton">
+            <button class="iacceptcookies" onclick= "accept()" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">I Accept</button>
+        </div>
+    </div>
     </div>
     
     <script src="script.js"></script>

@@ -1,6 +1,3 @@
-*{
-    border: 1px solid red;
-}
 .nav{
     background-color:  rgb(159,197,248);
     height: 100px;
@@ -24,7 +21,6 @@
 }
 .cityandtemp{
     height: 60px;
-    width: 1080px;
     display: flex;
     justify-content: space-between;
     padding: 0px 90px;
@@ -52,9 +48,8 @@
 }
 .col1{
     height: 370px;
-    width: 1040px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px 40px;
     padding: 20px 80px;
     flex: 1;
@@ -70,6 +65,10 @@
     height: 370px;
     width: 230px;
     margin: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 img{
     height: 160px;
@@ -81,10 +80,61 @@ img{
     margin: 10px 0px 20px 0px;
 }
 .hiandlow{
-    width: fit-content;
+    display: flex;
+    
 }
-#todaybox1{
-display: flex;
-flex-direction: column;
-align-items: center;
+.hitemp{
+    color: red;
+    font-size: 35px;
+    margin: 0px 5px;
+}
+.lowtemp{
+    color: blue;
+    font-size: 35px;
+    margin: 0px 5px;
+}
+.cookiejar{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    bottom: 20px;
+    width: 100%;
+    height: 140px;
+
+}
+.cookies {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color:  rgb(238, 238, 238);
+    border: 2px solid black;
+    height: 140px;
+    width: 880px;
+}
+.cookiepic{
+    height: 75px;
+    margin: 0px 20px;
+}
+.cookieheader{
+    margin-bottom: 4px;
+}
+.cookiestatement{
+    font-size: 22px;
+    margin-top: 0px;
+}
+.iacceptcookies{
+    background-color: rgb(45, 159, 163);
+    font-size: 15px;
+    color: white;
+    height: 30px;
+    width: 85px;
+    margin: 0px 15px;
+    border-color: black;
+    border: 3px solid black;
+}
+.shadow{
+    box-shadow: 3px 3px black;
 }
