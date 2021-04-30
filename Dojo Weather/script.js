@@ -41,7 +41,7 @@ function calculatetemps(){
     console.log(x);
     }
     if(x === 0){
-    document.querySelector("#hitemp").i = hitemp;
+    document.querySelector("#hitemp").innerHTML = hitemp;
     document.querySelector("#hitemp2").innerHTML = hitemp2;
     document.querySelector("#hitemp3").innerHTML = hitemp3;
     document.querySelector("#hitemp4").innerHTML = hitemp4;
