@@ -1,3 +1,6 @@
+*{
+    border: 1px solid red;
+}
 .nav{
     background-color:  rgb(159,197,248);
     height: 100px;
@@ -86,12 +89,22 @@ img{
 .hitemp{
     color: red;
     font-size: 35px;
-    margin: 0px 5px;
+    margin: 0px;
+}
+.hitempsymbol{
+    color: red;
+    font-size: 35px;
+    margin: 0px 5px 0px 0px;
 }
 .lowtemp{
     color: blue;
     font-size: 35px;
-    margin: 0px 5px;
+    margin: 0px 0px 0px 5px;
+}
+.lowtempsymbol{
+    color: blue;
+    font-size: 35px;
+    margin: 0px;
 }
 .cookiejar{
     display: flex;

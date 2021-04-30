@@ -11,8 +11,8 @@
     <div class="container">
         <div class="nav">DojoWeather
             <div id="cities"></div>
-            <h1 class="burbank"onclick="alert('Loading weather report...')">Burbank</h1>
-            <h1 class="chicago"onclick="alert('Loading weather report...')">Chicago</h1>
+            <h1 class="burbank" onclick="alert('Loading weather report...')">Burbank</h1>
+            <h1 class="chicago" onclick="alert('Loading weather report...')">Chicago</h1>
             <h1 class="dallas" onclick="alert('Loading weather report...')">Dallas</h1>
         </div>
     
@@ -20,60 +20,69 @@
         <div class="currentcity">San Jose</div>
         <div class="showtemp">
             <p>show temperature in</p>
-            <select name="tempselect" id="temp" onchange="calculatetemps(this, event)">
-                <option name="selectF" value="1">°F</option>
-                <option name="selectC" value="2">°C</option>
+            <select id="temp" onchange="calculatetemps()">
+                <option value="c">°C</option>
+                <option value="f">°F</option>
+                
             </select>
         </div>
     </div>
-    <hr class="line"></hr>
+    <hr class="line">
     <div class="col1"> 
 
     <div class="todaybox">
         <div id="todaybox1">
         <h1 class="todaytext">Today</h1>
-        <img src="imgs\some_rain.png" alt="">
+        <img src="imgs/some_rain.png" alt="">
         <p class="weathertype">some rain</p>
         <div class="hiandlow">
-            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
-            <p class="lowtemp">18.3<span>°</span></p>
+            <p class="hitemp" id="hitemp">23.9</p>
+            <p class="hitempsymbol">°</p>
+            <p class="lowtemp" id="lowtemp">18.3</p>
+            <p class="lowtempsymbol">°</p>
         </div>
         </div>
     </div>
     <div id="tomorrowbox1">
         <h1 class="tomorrowtext">Tomorrow</h1>
-        <img src="imgs\some_sun.png" alt="">
+        <img src="imgs/some_sun.png" alt="">
         <p class="weathertype">some rain</p>
         <div class="hiandlow">
-            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
-            <p class="lowtemp">18.3<span>°</span></p>
+            <p class="hitemp" id="hitemp2">23.9</p>
+            <p class="hitempsymbol">°</p>
+            <p class="lowtemp" id="lowtemp2">18.3</p>
+            <p class="lowtempsymbol">°</p>
         </div>
     </div>
     <div id="fridaybox1">
         <h1 class="fridaytext">Friday</h1>
-        <img src="imgs\some_clouds.png" alt="">
+        <img src="imgs/some_clouds.png" alt="">
         <p class="weathertype">some rain</p>
         <div class="hiandlow">
-            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
-            <p class="lowtemp">18.3<span>°</span></p>
+            <p class="hitemp" id="hitemp3">23.9</p>
+            <p class="hitempsymbol">°</p>
+            <p class="lowtemp" id="lowtemp3">18.3</p>
+            <p class="lowtempsymbol">°</p>
         </div>
     </div>
     <div id="saturdaybox1">
         <h1 class="saturdaytext">Saturday</h1>
-        <img src="imgs\some_sun.png" alt="">
+        <img src="imgs/some_sun.png" alt="">
         <p class="weathertype">some rain</p>
         <div class="hiandlow">
-            <p class="hitemp" id="hitemp">23.9<span>°</span></p>
-            <p class="lowtemp">18.3<span>°</span></p>
+            <p class="hitemp" id="hitemp4">23.9</p>
+            <p class="hitempsymbol">°</p>
+            <p class="lowtemp" id="lowtemp4">18.3</p>
+            <p class="lowtempsymbol">°</p>
 
         </div>
     </div>
 </div>
 </div>
 
-    <div class="cookiejar">
-    <div class="cookies">
-        <img class="cookiepic" src="imgs\cookie.png" alt="cookie">
+    <div id="cookiejarcontainer" class="cookiejar">
+    <div id="cookiejar" class="cookies">
+        <img class="cookiepic" src="imgs/cookie.png" alt="cookie">
         <div class="cookiestatebox">
         <h1 class="cookieheader">Stop! Cookie Time</h1>
         <p class="cookiestatement">We use cookies (sadly not the edible ones) to personalize content and adds, 
@@ -81,7 +90,7 @@
         </p>
         </div>
         <div class="acceptbutton">
-            <button class="iacceptcookies" onclick= "accept()" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">I Accept</button>
+            <button class="iacceptcookies" onclick="acceptclose()" onmouseover="addShadow(this)" onmouseout="removeShadow(this)">I Accept</button>
         </div>
     </div>
     </div>
