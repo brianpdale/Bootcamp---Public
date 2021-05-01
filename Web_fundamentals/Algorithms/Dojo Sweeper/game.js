@@ -25,8 +25,10 @@ function render(theDojo) {
 //        under the adjacent (all sides and corners) squares.
 //        Use i and j as the indexes to check theDojo.
 function howMany(i, j, element) {
+
   console.log({i, j});
-  alert("TODO - determine how many ninjas are hiding in adjacent squares");
+
+  alert("TODO  determine how many ninjas are hiding in adjacent squares");
 }
     
 // BONUS CHALLENGES
