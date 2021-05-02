@@ -7,10 +7,23 @@ print("Hello" + "," + name)	# with a comma
 print("Hello" + "+" +name )	# with a +
 # 3. print "Hello 42!" with the number in a variable
 name = 42
-print( your code here )	# with a comma
-print( your code here )	# with a +	-- this one should give us an error!
-# 4. print "I love to eat sushi and pizza." with the foods in variables
-fave_food1 = "sushi"
-fave_food2 = "pizza"
-print( your code here ) # with .format()
-print( your code here ) # with an f string
+
+x = [99,4,2,5,-3]
+print(x[:])
+#the output would be [99,4,2,5,-3]
+print(x[1:])
+#the output would be [4,2,5,-3];
+print(x[:4])
+#the output would be [99,4,2,5]
+print(x[2:3])
+dog = ("Canis Familiaris", "dog", "carnivore", 12)
+print(dog)
+dog = dog + ("domestic",)
+print(dog)
+capitals = {}
+capitals["svk"] = "Bratislava"
+capitals["deu"] = "Berlin"
+capitals["dnk"] = "Copenhagen"
+print(str(capitals))
+for x in "hello":
+    print(x)
