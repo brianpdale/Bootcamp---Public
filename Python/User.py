@@ -16,7 +16,7 @@ class User:
     def make_withdrawal(self, amount):
         self.account_balance -= amount
     
-    def Devin_make_transfer_to_Brian(self, amount, name):
+    def make_transfer(self, amount, name):
         self.account_balance -= amount
         name.account_balance += amount
 
@@ -33,7 +33,7 @@ Devin.make_deposit(100)
 Devin.make_deposit(200)
 Devin.make_deposit(50)
 Devin.make_withdrawal(100)
-Devin.Devin_make_transfer_to_Brian(20, Brian) # Makes transfer if amount to selected user.
+Devin.make_transfer(20, Jane) # Makes transfer if amount to selected user.
 Devin.display_user_balance()
 
 Jane.make_deposit(500)
