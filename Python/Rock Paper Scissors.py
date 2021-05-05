@@ -50,7 +50,7 @@ while user_counter < 3 and computer_counter < 3:
         print("Computer Wins All!")
         break
     if user_counter == 3:
-        print("You Win All!!!!!!!!!!!!!!!!!!!!")
+        print("You Win All!")
         break
 
 
