@@ -1,15 +1,22 @@
 counter = 0
 name_grade_course = []
+total_students = 0
 print("="*90)
 print("Hello, Henry.")
 print("Lets enter some grades!")
-number_students = int(input("How many students do you have?"))
-if type(myVariable) == int:
-    "continue"
-else:   
-    print('The variable is not a number')
-print(number_students)
-while number_students > counter:
+while True:
+    total_students = input("How many students do you have?")
+    try: 
+        total_students = int(total_students)
+        print(total_students)
+    except: 
+        print("Invalid input, Try again.")
+        continue
+    if total_students < 1:
+        print("Please enter a valid number.")
+        continue
+    break
+for x in range(total_students):
     students_name = input("Student's name:")
     students_grade = input("Student's grade:")
     students_course = int(input("Select course: 1 - Math, 2 - Science, 3 - History"))
